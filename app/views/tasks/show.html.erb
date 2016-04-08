@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Nome:</strong>
   <%= @task.name %>
 </p>
 
 <p>
-  <strong>Description:</strong>
+  <strong>Descrição:</strong>
   <%= @task.description %>
 </p>
 
 <p>
-  <strong>When done:</strong>
+  <strong>Feito em:</strong>
   <%= @task.when_done %>
 </p>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+<%= link_to 'Editar', edit_task_path(@task) %> |
+<%= link_to 'Voltar', tasks_path %>
